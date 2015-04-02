@@ -191,12 +191,6 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.verisign.vscc</groupId>
-            <artifactId>lzo-bundle</artifactId>
-            <version>2.0.0-cdh5.2.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka_2.10</artifactId>
             <version>0.8.2.1</version>
@@ -239,8 +233,6 @@
             <artifactId>commons-cli</artifactId>
             <version>1.2</version>
         </dependency>
-
-
     </dependencies>
 
     <build>
