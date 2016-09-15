@@ -45,7 +45,7 @@ public abstract class SetupSimpleKafkaCluster {
         zkClient = new ZkClient(zkServer.connectString(), zkConnectionTimeout, zkSessionTimeout, ZKStringSerializer$.MODULE$);
 
         // setup Broker
-        int port = TestUtils.choosePort();
+        int port = TestUtils.RandomPort();
         Properties props = TestUtils.createBrokerConfig(brokerId, port, true);
 
         KafkaConfig config = new KafkaConfig(props);
